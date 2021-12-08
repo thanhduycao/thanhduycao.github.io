@@ -135,7 +135,7 @@ nav ul li a:hover{
 
 .wrapper {
     display: flex;
-    padding: 0px;
+    padding: 42px;
 }
 
 .wrapper.around {
@@ -143,6 +143,13 @@ nav ul li a:hover{
     gap:84px;
 }
 
+.wrapper.around figure{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.wrapper.around figure:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 /* .AllArticle img{
     margin-left: 14px;
     margin-right: 14px;
@@ -294,6 +301,9 @@ a:hover{
     text-decoration: underline;
 }
 
+.wrapper.around a:hover{
+    text-decoration: none;
+}
 .scrollToTopBtn {
     background-color: #466e74;
     border: none;
